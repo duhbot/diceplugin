@@ -22,7 +22,7 @@
         <configuration>
           <archive>
             <manifest>
-              <mainClass>org.duh102.duhbot.DicePlugin</mainClass>
+              <mainClass>org.duh102.duhbot.diceplugin.DicePlugin</mainClass>
             </manifest>
           </archive>
         </configuration>
