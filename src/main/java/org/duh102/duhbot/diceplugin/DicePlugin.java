@@ -8,7 +8,7 @@ import org.pircbotx.hooks.types.*;
 import org.pircbotx.hooks.events.*;
 
 import org.duh102.duhbot.functions.*;
-public class DicePlugin extends ListenerAdapter implements DuhbotFunction
+public class DicePlugin extends ListenerAdapter implements ListeningPlugin
 {
   static Random random = null;
   static Pattern diceCommandPattern = Pattern.compile("^!dice\\s([0-9]+)d([0-9]+)([+-]([0-9]+))?");
